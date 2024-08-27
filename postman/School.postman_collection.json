@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "0501248c-a011-40d3-ab15-cce0e53c2e08",
+		"name": "School",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37478056"
+	},
+	"item": [
+		{
+			"name": "listschool",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/listSchools?latitude=300.7128&longitude=444.0060",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"listSchools"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "300.7128"
+						},
+						{
+							"key": "longitude",
+							"value": "444.0060"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addschool",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"VIT International School\",\r\n    \"address\": \"Kothrud Pune\",\r\n    \"latitude\": \"300.0\",\r\n    \"longitude\": \"-934.01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/addSchool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
