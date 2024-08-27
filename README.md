@@ -17,6 +17,8 @@ This project provides a set of RESTful APIs to manage school data. It includes f
 ## Postman Collection
 A Postman collection is provided to easily test the APIs. You can import the collection by downloading it [here](./postman/school_management.postman_collection.json)
 
+## Hosting
+The API is hosted on Render. You can access the live API at: [here](https://school-management-api-6leu.onrender.com)
 ## Prerequisites
 
 - **Node.js**: Install Node.js
