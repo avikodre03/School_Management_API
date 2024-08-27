@@ -15,7 +15,7 @@ This project provides a set of RESTful APIs to manage school data. It includes f
 - **List Schools:** Get a list of all schools, sorted by how close they are to a specified location.
 
 ## Postman Collection
-A Postman collection is provided to easily test the APIs. You can import the collection by downloading it [here](./postman/school_management.postman_collection.json)
+A Postman collection is provided to easily test the APIs. You can import the collection by downloading it [here](./postman/School.postman_collection.json)
 
 ## Hosting
 The API is hosted on Render. You can access the live API at: [here](https://school-management-api-6leu.onrender.com)
