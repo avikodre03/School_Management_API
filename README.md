@@ -54,7 +54,7 @@ CREATE TABLE school_management_system (
 
 ### 4.Run the Server
  ```bash
-node server.js
+node index.js
 ```
 
 ## API Endpoints
