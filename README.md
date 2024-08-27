@@ -124,3 +124,11 @@ node server.js
     }
     ]
     ```
+## Contact
+
+If you have any questions or inquiries, please feel free to contact the project owner:
+
+- Name: Avinash Kodre.
+- Email: akodre111@gmail.com
+
+Thank you for using School Management API ! We hope you enjoy your Better experience.
